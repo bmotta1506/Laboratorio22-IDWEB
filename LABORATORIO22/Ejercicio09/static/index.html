@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="/static/app.js"></script>
+  <title>Indice</title>
+</head>
+
+<body>
+  <h1>Enviar equipo</h1>
+
+  <form action="/equipos" method="POST">
+    <label for="nombre">Nombre: </label>
+    <input type="text" name="nombre"><br>
+    <label for="ciudad">Ciudad: </label>
+    <input type="text" name="ciudad"><br>
+    <label for="nivelDefensa">Nivel de Defensa: </label>
+    <input type="number" name="nivelDefensa"><br>
+    <label for="nivelAtaque">Nivel de Ataque: </label>
+    <input type="number" name="nivelAtaque"><br>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+
+</html>
